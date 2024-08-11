@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #24292e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.block {
+    border-radius: 5px;
+    border: 1px solid #2dba4e;
+    background: #2b3137;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    min-height: 500px;
+}
+
+.block-search {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-search {
+    border: none;
+    background-color: #24292e;
+    outline: none;
+    color: #fafbfc;
+    margin-bottom: 5px;
+    padding: 5px;
+    transition: 0.2s;
+}
+.input-search:focus {
+    transition: 0.2s;
+    border: 1px solid #fafbfc;
+}
+.btn-search {
+    border: 1px solid #fafbfc;
+    width: 120px;
+    background-color: #24292e;
+    color: #fafbfc;
+}
+.btn-search:hover {
+    border: 1px solid #2dba4e;
+    background-color: #2b3137;
+    color: #2dba4e;
+}
+.btn-search:active {
+    background-color: #fafbfc;
+    color: #24292e;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-image {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.user-name {
+    color: #ffffff;
+    font-size: 28px;
+}
+.user-bio {
+    color: #c9c9c9;
+    font-size: 22px;
+}
+
+.user-location {
+    color: wheat;
+    font-size: 22px;
+}
+.user-rep {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.rep-link {
+    border: 1px solid #fafbfc;
+    background-color: #24292e;
+    color: #fafbfc;
+    text-decoration: none;
+    padding: 3px;
+    margin: 3px;
+}
+.rep-link:hover {
+    border: 1px solid #2dba4e;
+    background-color: #2b3137;
+    color: #2dba4e;
+}
+.rep-link:active {
+    background-color: #fafbfc;
+    color: #24292e;
+}
